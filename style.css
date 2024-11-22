@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+nav {
+      padding: 1rem;
+      background-color:rgb(87, 11, 26);
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    background-color: rgb(254, 254, 254);
+}
+
+.hero-con {
+    display: flex;
+}
+
+.hero-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+
+}
+
+.hero-info p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.hero-info .hero-btn {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.805);
+    color: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-img img {
+    width: 100%;
+    padding: 2rem;
+}
+ 
+.blog-con{
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.blog-title{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.blog-item img{
+    width: 80%;
+}
+
+.blog-item h4{
+    margin-top: rem;
+    font-size: 1.5rem;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+}
+
+.blog-item a{
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(87, 11, 26);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-top{
+    padding: 3rem;
+    margin-top: 3rem;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-con{
+    display:  flex;
+    margin: 2rem 0;
+}
+
+.footer-top-con .date{
+    background-color: #ffffff;
+    color: #333;
+    padding:0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item h4  {
+      margin-bottom: 1rem;
+}
+    
+.footer-top-item2 h4  {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom{
+    background-color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}  
+
